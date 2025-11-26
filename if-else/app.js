@@ -60,10 +60,68 @@
 //   default:
 // }
 
-function getvel(val) {
-  if (val > 100) return "A";
-  else if (val > 70) return "b";
-  else if (val > 50) return "c";
-  else return " sory ";
-}
-getvel(40)
+// function getval(val) {
+//   if (val > 100) return "A";
+//   else if (val > 70) return "b";
+//   else if (val  > 50) return "c";
+//   else return " sory ";
+// }
+
+// console.log(getval(40));
+
+
+
+
+
+// function getgrade ( score){
+//     if ( score >= 90 &&  score <= 100){
+//         return "A grade ";   
+//     }
+
+//     else if (score >= 80  &&  score <= 89){
+//         return " B grade";
+//     }
+        
+
+//     else if (score >= 70 && score <= 79){
+//         return " c grade";
+//     }
+
+//     else if (score >= 60 && score <= 69){
+//         return "  D grade ";
+//     }
+
+//     else if ( score >= 1 && score <= 59){
+//         return  "fail";
+//     }
+    
+//     else {
+//         return "invilide marks"
+//     }
+// }
+
+// console.log(getgrade(90));
+
+
+
+
+
+
+
+
+// function hello ( user ,computer){
+//     if ( user === computer) return " drow "
+
+//     if (user === "rock" && computer === "seaser" ) return "user"
+
+//     if ( user === "seaser " && computer === "papper ") return "user"
+
+//     if ( user === "papper" && computer === "rock") return "user"
+
+//     if ( user === "rock" && computer === "rock") return "user"
+     
+//     return "papper"
+// }
+
+
+// console.log(hello("rock , rock "));
